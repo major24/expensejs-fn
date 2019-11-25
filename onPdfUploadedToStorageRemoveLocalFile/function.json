@@ -1,0 +1,12 @@
+{
+  "bindings": [
+    {
+      "name": "inputQueuePdfEmailedToUser",
+      "type": "queueTrigger",
+      "direction": "in",
+      "queueName": "pdf-emailed-to-user",
+      "connection": "AzureWebJobsStorage"
+    }
+  ],
+  "disabled": false
+}

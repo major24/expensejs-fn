@@ -1,0 +1,19 @@
+{
+  "bindings": [
+    {
+      "name": "inputQueuePdfCreatedInLocal",
+      "type": "queueTrigger",
+      "direction": "in",
+      "queueName": "pdf-created-in-local",
+      "connection": "AzureWebJobsStorage"
+    },
+    {
+      "type": "queue",
+      "direction": "out",
+      "name": "outputQueuePdfUploadedToStorage",
+      "queueName": "pdf-uploaded-to-storage",
+      "connection": "AzureWebJobsStorage"
+    }
+  ],
+  "disabled": false
+}

@@ -1,0 +1,28 @@
+{
+  "bindings": [
+    {
+      "name": "inputQueuePdfUploadedToStorage",
+      "type": "queueTrigger",
+      "direction": "in",
+      "queueName": "pdf-uploaded-to-storage",
+      "connection": "AzureWebJobsStorage"
+    },
+    {
+      "type": "sendGrid",
+      "name": "message",
+      "direction": "out",
+      "apiKey": "mnnalliahSendGridApiKey",
+      "from": "majuurnalliah@gmail.com",
+      "subject": "Expense Report",
+      "text": "Expense submitted"
+    },
+    {
+      "type": "queue",
+      "direction": "out",
+      "name": "outputQueuePdfEmailedToUser",
+      "queueName": "pdf-emailed-to-user",
+      "connection": "AzureWebJobsStorage"
+    }
+  ],
+  "disabled": false
+}
