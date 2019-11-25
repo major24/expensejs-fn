@@ -1,4 +1,5 @@
 # expensejs-fn
+
 ## Azure function app with Node JS/Javascript for expense app. When a user submits expense, below functions (serverless) should run in squence.
 
 ### Function: onExpenseSubmittedAddToQueue
@@ -32,8 +33,3 @@
 #### [INPUT]: Queue trigger by [pdf-emailed-to-user]
 #### [OUTPUT]: None
 #### What it does: Removes the file from local folder
-
-
-
-
-
