@@ -11,7 +11,7 @@
       "type": "sendGrid",
       "name": "message",
       "direction": "out",
-      "apiKey": "mnnalliahSendGridApiKey",
+      "apiKey": "mnalliahSGridApikey",
       "from": "majuurnalliah@gmail.com",
       "subject": "Expense Report",
       "text": "Expense submitted"
