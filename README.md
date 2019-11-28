@@ -8,7 +8,7 @@
 #### What it does: Writes the incoming data queue, so it can be processed. { "userId": "user1", "expenseId": 1 }
 #### To test from PShell.
 `iwr -Method POST `
--Uri https://mn-expense-js-fnapp.azurewebsites.net/api/onExp...Subm....ToQue..?code=<<...get from azure...>>`
+-Uri https://mn-expen..-js-fnapp.azu..ewebs..es.net/ap./onExp...Subm....ToQue..?code=<<...get from azure...>>`
 -Headers @{ "content-type"="application/json" } `
 -Body '{ "userId": "user1", "expenseId": "1" }'`
 
